@@ -1,10 +1,11 @@
+import nltk
+import pandas as pd
+import numpy as np
+from nltk.corpus import words
+from random import sample
+
 def check_your_spelling(inputList):
     """check your spelling in a list of input words. """
-    import nltk
-    import pandas as pd
-    import numpy as np
-    from nltk.corpus import words
-    from random import sample
 
     correct_spellings = words.words()
     
